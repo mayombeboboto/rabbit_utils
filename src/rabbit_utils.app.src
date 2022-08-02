@@ -1,0 +1,17 @@
+{application, rabbit_utils,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {rabbit_utils_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    sasl,
+    rabbit_utils
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache-2.0"]},
+  {links, []}
+ ]}.
